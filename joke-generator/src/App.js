@@ -20,7 +20,7 @@ export default function App() {
 
         <Joke text={fetchResult} />
 
-        <Button text = "Fetch joke" className={"mt-4"} onClick = {() => handleFetchJoke()} />
+        <Button text = "Show me a joke!" className={"mt-4"} onClick = {() => handleFetchJoke()} />
 
 
       
