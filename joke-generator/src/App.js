@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <div className="App d-flex flex-column justify-content-center align-items-center vh-100 bg-light">
-      <h1 className="mb-5">Need a laugh?</h1>
+      <h1 className="display-2 mb-5">Need a laugh?</h1>
         
 
         <Joke text={fetchResult} />
