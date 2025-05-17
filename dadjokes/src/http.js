@@ -1,25 +1,22 @@
 import axios from 'axios';
 
 export const fetchJoke = async () => {
-  const url = `https://v2.jokeapi.dev/joke/Programming`;   //`https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,racist,sexist&type=single`
-  const params = {
-    blacklistFlags: 'nsfw,racist,sexist',
-    type: 'single'
-  };
+  const url = `https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,racist,sexist&type=single`
 
   try {
-  const response = await axios.get(url, {
-    method: 'GET', 
-    headers: {
-      'Content-Type': 'application/json'
-    }});
-
-  const data = await response.json();
-  console.log(response.data.results);
-  return response.data.results;
+    const response = await axios.get(url);
+    
+    console.log(response.data);
+    return response.data;
 
   } catch (error) {
-    console.error('Fetch error:', error.response.status, error.response.statusText);
-    throw new Error(`HTTP-status: ${error.response.status}: ${error.response.statusText}`);
+    if (error.response) {
+        console.error('Error response:', error.response.status, error.response.statusText);
+        throw new Error(`HTTP-status: ${error.response.status}: ${error.response.statusText}`);
+    } else {
+      console.error('Error:', error.message);
+      throw new Error(`Fetch error: ${error.message}`);
+    }
   }
 };
+

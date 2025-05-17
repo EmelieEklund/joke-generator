@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import Button from './components/Button';
 import Joke from './components/Joke';
@@ -15,8 +14,8 @@ export default function App() {
 
 
   return (
-    <div className="App d-flex flex-column justify-content-center align-items-center vh-100">
-      <h1 className="mb-5">Jokes</h1>
+    <div className="App d-flex flex-column justify-content-center align-items-center vh-100 bg-light-subtle">
+      <h1 className="mb-5">Need a laugh?</h1>
         
 
         <Joke text={fetchResult} />
