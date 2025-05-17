@@ -14,7 +14,7 @@ export default function App() {
 
 
   return (
-    <div className="App d-flex flex-column justify-content-center align-items-center vh-100 bg-light-subtle">
+    <div className="App d-flex flex-column justify-content-center align-items-center vh-100 bg-light">
       <h1 className="mb-5">Need a laugh?</h1>
         
 
