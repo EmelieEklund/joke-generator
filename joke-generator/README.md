@@ -1,20 +1,33 @@
-# joke-generator
-Web application using JokeAPI (https://sv443.net/jokeapi/v2/) to generate (fetch) a random joke when a button is pushed.
+# Joke generator
 
-It is built with React components and styled with Bootstrap 5. 
+Web application using JokeAPI (https://sv443.net/jokeapi/v2/) to fetch a random joke when a button is pushed.
 
-The API-calls are made with Axios.
+## Getting Started
+Clone the repository.
 
-License: MIT
-
-
-### To run:
-
+To install dependencies, run:
 npm install
 
+and then to start development server:
 npm start
+
+Go to http://localhost/3000
 
 Click the button to receive a new, random joke.
 
 
+## Built With
 
+* [React] - Web framework
+* [Bootstrap5] - Styling library
+* [NPM] - Package Manager
+* [Axios] - Used to make API-calls
+
+
+## Authors
+
+* **Emelie Eklund** 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
