@@ -1,3 +1,4 @@
+import './app.css'
 import { useState } from "react";
 import Button from './components/Button';
 import Joke from './components/Joke';

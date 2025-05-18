@@ -1,4 +1,4 @@
-
+import '../app.css'
 
 const Joke = ({text, className}) =>  {
     const display = text.joke || "Joke will appear here...";

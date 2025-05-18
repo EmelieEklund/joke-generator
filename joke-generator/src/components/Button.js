@@ -1,4 +1,4 @@
-
+import '../app.css'
 
 const Button = ({text, className, onClick}) => {
     return(
