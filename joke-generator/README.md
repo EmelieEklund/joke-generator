@@ -22,6 +22,7 @@ Click the button to receive a new, random joke.
 * [Bootstrap5] - Styling library
 * [NPM] - Package Manager
 * [Axios] - Used to make API-calls
+* [Framer-Motion] - Used for animation
 
 
 ## Authors
