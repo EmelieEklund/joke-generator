@@ -13,7 +13,7 @@ npm start
 
 Go to http://localhost/3000
 
-Click the button to receive a new, random joke.
+Click the button to receive a new, random joke inside a super cool rotating card. 
 
 
 ## Built With
